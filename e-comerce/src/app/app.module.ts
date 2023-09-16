@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProductoComponent } from './producto/producto.component';
+import { CarritoComponent } from './carrito/carrito.component';
+import { PagoComponent } from './pago/pago.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductoComponent,
+    CarritoComponent,
+    PagoComponent
   ],
   imports: [
     BrowserModule,
